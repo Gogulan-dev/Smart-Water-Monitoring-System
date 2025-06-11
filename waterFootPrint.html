@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Water Flow and Quality</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron text-center">
+      <h1>Water Flow and Quality</h1>
+      <p>"Water is the driving force of all nature." - Leonardo da Vinci</p>
+    </div>
+
+    <div class="card text-center">
+      <div class="card-header">Water Data</div>
+      <div class="card-body">
+        <p><strong>Flow Rate:</strong> {{flowRate}} L/min</p>
+        <p><strong>Total Volume:</strong> {{totalLitres}} L</p>
+        <p><strong>TDS Value:</strong> {{tdsValue}} ppm</p>
+      </div>
+    </div>
+
+    <div class="text-center my-4">
+      <img src="https://via.placeholder.com/400x300.png?text=Water" alt="Water Image" class="img-fluid rounded">
+    </div>
+
+    <div class="card text-center my-4">
+      <div class="card-header">Project Information</div>
+      <div class="card-body">
+        <p>This project is designed to measure the flow rate, total volume, and TDS value of water in real-time. It uses an ESP32 microcontroller and presents the data on a web page.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
